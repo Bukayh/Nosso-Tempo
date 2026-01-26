@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(135deg, #000000, #000000);
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #ff4d6d;
+    margin-bottom: 10px;
+}
+
+#contador {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#contador span {
+    font-weight: bold;
+    color: #ff4d6d;
+}
