@@ -1,11 +1,8 @@
 body {
     background: linear-gradient(135deg, #000000, #000000);
     font-family: Arial, sans-serif;
-    height: 100vh;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 40px 20px;
 }
 
 .container {
@@ -14,19 +11,26 @@ body {
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-}
-
-h1 {
-    color: #ff4d6d;
-    margin-bottom: 10px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 #contador {
-    margin-top: 20px;
+    margin: 20px 0 30px;
     font-size: 1.2em;
 }
 
 #contador span {
     font-weight: bold;
     color: #ff4d6d;
+}
+
+.mensagem {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+.mensagem p {
+    margin-bottom: 15px;
 }
