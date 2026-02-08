@@ -57,7 +57,7 @@ function atualizarContador() {
 const dataConheceram = new Date(2025, 10, 17, 0, 0, 0);
 
 // DATA DO INÍCIO DO NAMORO (MUDE AQUI)
-const dataNamoro = new Date(2026, 0, 30, 0, 0, 0); // exemplo 10/01/2024
+const dataNamoro = new Date(202, 0, 30, 0, 0, 0); // exemplo 10/01/2024
 
 function calcularTempo(dataInicio) {
     const agora = new Date();
